@@ -1,0 +1,15 @@
+<div class="form">
+    <div>{{resu}}
+</div>
+
+    <form>
+    <h2 style="color: #000070;margin:auto;">Upload Here</h2><br>
+    <label> Image ID: </label> <br>
+    <input type="text" placeholder="Enter image id" [(ngModel)]="id"/> <br>
+    <label> Collection Name: </label> <br>
+    <input type="text" placeholder=" collection name" [(ngModel)]="name"/><br>
+    <label> Image Link: </label> <br>
+    <input type="text" placeholder=" image link" [(ngModel)]="link"/><br>
+    <button class="btn btn-primary" (click)="upload()"> Submit </button>
+</form>
+</div>
